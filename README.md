@@ -1,4 +1,4 @@
-# Galilel Block Explorer
+# Marmara Credit Loop - Blockchain Explorer
 
 [![Build Status](https://travis-ci.com/Galilel-Project/galilel-explorer.svg?branch=master)](https://travis-ci.com/Galilel-Project/galilel-explorer)
 [![GitHub version](https://badge.fury.io/gh/Galilel-Project%2Fgalilel-explorer.svg)](https://github.com/Galilel-Project/galilel-explorer/releases)
@@ -8,7 +8,6 @@
 [![GitHub license](https://img.shields.io/github/license/Galilel-Project/galilel-explorer.svg)](https://github.com/Galilel-Project/galilel-explorer/blob/master/LICENSE)
 [![GitHub downloads](https://img.shields.io/github/downloads/Galilel-Project/galilel-explorer/total.svg)](https://github.com/Galilel-Project/galilel-explorer/releases)
 
-![](doc/img/explorer.jpg)
 
 Simple and beautiful cryptocurrency block explorer system. It includes a
 Proof-of-Stake calculator, masternode statistics and market statistics based
