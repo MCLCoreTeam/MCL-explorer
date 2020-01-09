@@ -24,8 +24,8 @@ Node.js: https://nodejs.org/en/download/package-manager/
 
 npm: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
-It is also required to have the latest version of the Galilel
-(https://github.com/Galilel-Project/galilel) desktop wallet daemon running in
+It is also required to have the latest version of the MarmaraCL
+(https://github.com/MCLCoreTeam/MarmaraCL-explorer/) desktop wallet daemon running in
 the background. It is recommended to set this up before beginning to set up the
 explorer so that it syncs by the time you need it.
 
@@ -35,8 +35,8 @@ Basic steps are to clone the repository into a local folder, switch into it and
 install the packages used by the system.
 
 ```
-git clone https://github.com/Galilel-Project/galilel-explorer.git
-cd galilel-explorer
+git clone https://github.com/MCLCoreTeam/MarmaraCL-explorer
+cd MCL-explorer
 npm install
 ```
 
@@ -61,13 +61,13 @@ the `config_private.js` must be created.
 ```
 mongo
 use galileldb
-db.createUser( { user: "galileluser", pwd: "galilelpassword", roles: [ "readWrite" ] } )
+db.createUser( { user: "mcluser", pwd: "mclpassword", roles: [ "readWrite" ] } )
 exit
 ```
 
 ### Crontab
 
-The following automated tasks are currently needed for Galilel Explorer to
+The following automated tasks are currently needed for MarmaraCL Explorer to
 update. First time you need to do initial sync of the blockchain via
 `npm run cron:block`, takes a lot of time.
 
@@ -106,12 +106,12 @@ To setup the crontab please see run `crontab -e` to edit the crontab and paste
 the following lines (edit with your local information):
 
 ```
-*/1 * * * * cd /path/to/galilel-explorer && /path/to/node cron/block.js >> tmp/block.log 2>&1
-*/1 * * * * cd /path/to/galilel-explorer && /path/to/node cron/masternode.js >> tmp/masternode.log 2>&1
-*/5 * * * * cd /path/to/galilel-explorer && /path/to/node cron/proposal.js >> tmp/proposal.log 2>&1
-*/1 * * * * cd /path/to/galilel-explorer && /path/to/node cron/peer.js >> tmp/peer.log 2>&1
-*/1 * * * * cd /path/to/galilel-explorer && /path/to/node cron/rich.js >> tmp/rich.log 2>&1
-*/5 * * * * cd /path/to/galilel-explorer && /path/to/node cron/coin.js >> tmp/coin.log 2>&1
+*/1 * * * * cd /path/to/MCL-explorer && /path/to/node cron/block.js >> tmp/block.log 2>&1
+*/1 * * * * cd /path/to/MCL-explorer && /path/to/node cron/masternode.js >> tmp/masternode.log 2>&1
+*/5 * * * * cd /path/to/MCL-explorer && /path/to/node cron/proposal.js >> tmp/proposal.log 2>&1
+*/1 * * * * cd /path/to/MCL-explorer && /path/to/node cron/peer.js >> tmp/peer.log 2>&1
+*/1 * * * * cd /path/to/MCL-explorer && /path/to/node cron/rich.js >> tmp/rich.log 2>&1
+*/5 * * * * cd /path/to/MCL-explorer && /path/to/node cron/coin.js >> tmp/coin.log 2>&1
 ```
 
 ## Build
