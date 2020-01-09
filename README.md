@@ -140,3 +140,7 @@ application and put it in the `/public` folder for delivery.
 2. Test the rpc connection, database connection, and API endpoints.
 
    `npm run test:server`
+   
+   
+## contact :  
+B. Gültekin Çetiner http://twitter.com/drcetiner & ~Paro, (c) 2019 
