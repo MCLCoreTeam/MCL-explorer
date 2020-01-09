@@ -9,11 +9,6 @@
 [![GitHub downloads](https://img.shields.io/github/downloads/Galilel-Project/galilel-explorer/total.svg)](https://github.com/Galilel-Project/galilel-explorer/releases)
 
 
-Simple and beautiful cryptocurrency block explorer system. It includes a
-Proof-of-Stake calculator, masternode statistics and market statistics based
-on CoinMarketCap (https://coinmarketcap.com/currencies/galilel/) or CoinGecko
-(https://www.coingecko.com/coins/galilel) data. Many thanks for the original
-version to the Bulwark developers.
 
 ## Requirements
 
