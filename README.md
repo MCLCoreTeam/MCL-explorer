@@ -1,3 +1,4 @@
+![GitHub Logo](https://raw.githubusercontent.com/MCLCoreTeam/Blockchain-Id-Storage/marmara-v1-1-opret-v2/marmara_coin_logo.png)
 # Marmara Credit Loop - Blockchain Explorer
 
 [![Build Status](https://travis-ci.com/Galilel-Project/galilel-explorer.svg?branch=master)](https://travis-ci.com/Galilel-Project/galilel-explorer)
